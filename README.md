@@ -29,3 +29,5 @@ https://doi.org/10.1101/2021.08.10.21261839
 CNV frequency and summary statistics available at: 
 
 https://data.mendeley.com/datasets/z54dc3b6jz/draft?a=3a986eba-2ec3-4a1f-84fa-fe5d388cadf4 
+
+Alternatively, summary statistics can be downloaded from the GWAS Catalog under thhe study accession numbers: GCST90027274-GCST90027444.
