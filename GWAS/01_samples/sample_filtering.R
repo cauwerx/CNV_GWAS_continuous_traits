@@ -63,7 +63,7 @@ print(paste0("STEP 5: Exclude genotype plate outliers: ", nrow(df), " individual
 
 
 #################################################
-### STEP 6: Exclude extreme CNV profiles (samples with >200 CNVs or or 1 CNV > 10Mb); "ukb_cnv.gz" is the final PennCNV output, with all CNV calls in a linear format
+### STEP 6: Exclude extreme CNV profiles (samples with >200 CNVs or 1 CNV > 10Mb); "ukb_cnv.gz" is the final PennCNV output, with all CNV calls in a linear format
 
 # CNVs > 10Mb
 cnv <- as.data.frame(fread("/home/cauwerx/scratch/cauwerx/projects/cnv_gwas/cnv_calls/PennCNV/final/ukb_cnv.gz", header = F, select = c(3,5), col.names = c("Length", "File")))
