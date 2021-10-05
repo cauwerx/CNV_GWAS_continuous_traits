@@ -19,8 +19,8 @@ pheno_list <- as.data.frame(fread("/home/cauwerx/scratch/cauwerx/projects/cnv_gw
 #################################################
 ### STEP 2: Order raw phenotype files ###########
 
-# As phenotypic data is spread throughout multiple file downloaded from the UKBB portal, we start by listing all phenotype files available and order them
-raw_pheno_file <- file.info(list.files("/data/FAC/FBM/DBC/zkutalik/default_sensitive/UKBB/pheno", pattern = "^ukb", full.names = T, recursive = F))
+# As phenotypic data is spread throughout multiple files downloaded from the UKBB portal, we start by listing all phenotype files available and order them by date
+raw_pheno_file <- file.info(list.files("/data/FAC/FBM/DBC/zkutalik/default_sensitive/UKBB/pheno", pattern = "^ukb.*csv", full.names = T, recursive = F))
 raw_pheno_file <- data.frame(File = rownames(raw_pheno_file), Date = raw_pheno_file[,4])
 raw_pheno_file <- raw_pheno_file[order(raw_pheno_file$Date, decreasing = T), ]
 print(paste0("There are ", nrow(raw_pheno_file), " raw phenotype files"))
