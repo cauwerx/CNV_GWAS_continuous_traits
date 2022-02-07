@@ -28,7 +28,7 @@ echo "SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 # DEFINE VARIABLES # 
 ####################
 
-# Fxed variables: number of cores
+# Fixed variables: number of cores
 nb_core=1
 
 # Main variable
