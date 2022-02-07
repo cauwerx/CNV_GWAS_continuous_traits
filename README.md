@@ -8,7 +8,7 @@ https://doi.org/10.1101/2021.08.10.21261839
 
 ## Description of content: 
 
-**Burden_analysis:** Contains the scripts to calculate each individual's autosomal CNV burden (`CNV_burden`) and determine which individual carries a CNV overlapping CNV regions (CNVRs) identified through CNV-GWAS (`CNVR_covariates`). Resulting data is used to perform CNV burden analyses on continuous traits (`continuous`; both with and without correction for modifier CNVs), as well as life history traits (`life_history`). 
+**Burden_analysis:** Contains the scripts to calculate each individual's autosomal CNV burden (`CNV_burden`) and determine which individual carries a CNV overlapping CNV regions (CNVRs) identified to be significantly associated to a trait through CNV-GWAS (`CNVR_covariates`). Resulting data is used to perform CNV burden analyses on continuous traits (`continuous`; both with and without correction for modifier CNVs), as well as life history traits (`life_history`). 
   
 
 **CNV_calling:** Contains the pipeline for raw BAF and LRR data processing, CNV calling with PennCNV, quality score (QS) calculation, and transformation of QSs to the probe level. 
@@ -28,6 +28,6 @@ https://doi.org/10.1101/2021.08.10.21261839
 
 CNV frequency and summary statistics available at: 
 
-https://data.mendeley.com/datasets/z54dc3b6jz/draft?a=3a986eba-2ec3-4a1f-84fa-fe5d388cadf4 
+http://dx.doi.org/10.17632/z54dc3b6jz.1
 
-Alternatively, summary statistics can be downloaded from the GWAS Catalog under thhe study accession numbers: GCST90027274-GCST90027444.
+Alternatively, summary statistics can be downloaded from the GWAS Catalog under the study accession numbers: GCST90027274-GCST90027444.
