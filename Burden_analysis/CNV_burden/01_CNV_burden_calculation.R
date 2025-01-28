@@ -25,7 +25,7 @@ cnv_burden <- left_join(cnv_burden, eids, by = "IID")
 
 
 #################################################
-### STEP 2: Exclude autosomal CNVs ##############
+### STEP 2: Exclude non-autosomal CNVs ##########
 
 cnvs_all <- cnvs_all[!cnvs_all$Chromosome %in% c(23, 24),]
 
